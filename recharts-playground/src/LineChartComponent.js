@@ -1,5 +1,5 @@
 import './App.css'
-import {LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip} from 'recharts'
+import {LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend} from 'recharts'
 
 const data = [
     {
@@ -53,6 +53,7 @@ const renderLineChart = (
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
+        <Legend />
     </LineChart>
 )
 
